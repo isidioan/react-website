@@ -20,3 +20,7 @@ L
 src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
 O
 src/components/navbar/NavBar.js,8\4\84249674e6b2ac216f23358c9272ead3526e1c55
+P
+ src/assets/css/bootstrap.min.css,4\5\45d221a5cb75f310811f0a5a4b39e349d8d1bbfe
+;
+src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
