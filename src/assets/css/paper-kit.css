@@ -2711,12 +2711,26 @@ blockquote small {
 
 .title {
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     min-height: 32px;
+    color: #000b80;
 }
 
 .title.text-center {
     margin-bottom: 50px;
+}
+
+.row .icon  {
+    color: #000b80;
+    text-align: center;
+}
+
+.row .icon a  {
+    color: #000b80;
+}
+
+.row .icon a:hover, a:focus  {
+    color: #2ba9cd;
 }
 
 /*     General overwrite     */
