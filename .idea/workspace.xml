@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f9f220-d031-4af3-981a-e7aea3d95c30" name="Default Changelist" comment="" />
+    <list default="true" id="c9f9f220-d031-4af3-981a-e7aea3d95c30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +114,7 @@
       <workItem from="1604591389381" duration="13115000" />
       <workItem from="1604736216909" duration="18851000" />
       <workItem from="1604954332024" duration="21064000" />
-      <workItem from="1605261780319" duration="11746000" />
+      <workItem from="1605261780319" duration="12653000" />
     </task>
     <servers />
   </component>
@@ -123,7 +126,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -164,6 +179,14 @@
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605277719324" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605105310496" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1605278776667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605278776667" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1605278778725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="281" key="MultipleFileMergeDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605278778725" />
     <state x="1717" y="0" key="SettingsEditor" timestamp="1605034979197">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -178,9 +201,14 @@
     </state>
     <state x="1963" y="195" width="726" height="801" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605035148979" />
     <state x="-1323" y="195" width="726" height="650" key="find.popup/0.0.1536.824/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1604865399897" />
-    <state x="-1206" y="407" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604591767277">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="739" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605278836391">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="739" y="233" key="git4idea.branch.GitSmartOperationDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605278836391" />
+    <state x="714" y="407" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605278602029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="407" key="git4idea.remote.GitConfigureRemotesDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605278602029" />
     <state x="-1206" y="407" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824/-1920.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1604591767277" />
     <state x="-3613" y="132" key="new project wizard" timestamp="1604753720448">
       <screen x="-3840" y="0" width="1920" height="1040" />
