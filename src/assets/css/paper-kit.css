@@ -2713,6 +2713,13 @@ blockquote small {
     margin-top: 30px;
     margin-bottom: 40px;
     min-height: 32px;
+}
+
+.title-white {
+    color: #FFF;
+}
+
+.title-blue {
     color: #000b80;
 }
 
@@ -2720,16 +2727,21 @@ blockquote small {
     margin-bottom: 50px;
 }
 
-.row .icon  {
+.row .icon {
     color: #000b80;
     text-align: center;
 }
 
-.row .icon a  {
+.row .icon a {
     color: #000b80;
 }
 
-.row .icon a:hover, a:focus  {
+.row .icon p {
+    font-weight: 400;
+    padding-top: 5%;
+}
+
+.row .icon a:hover, a:focus {
     color: #2ba9cd;
 }
 
@@ -2798,12 +2810,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .btn-hover,
 [data-toggle="collapse"] i,
 .animation-transition-fast,
+
 .dropdown-menu .dropdown-item {
     -webkit-transition: all 150ms linear;
     -moz-transition: all 150ms linear;
     -o-transition: all 150ms linear;
     -ms-transition: all 150ms linear;
     transition: all 150ms linear;
+    color: #000b80;
 }
 
 .btn-morphing .fa,
@@ -4243,7 +4257,7 @@ License - nucleoapp.com/license/
 }
 
 .dropdown-menu .dropdown-item {
-    color: #66615b;
+    color: #000b80;
     font-size: 14px;
     padding: 10px 45px 10px 15px;
     clear: both;
@@ -5267,6 +5281,7 @@ License - nucleoapp.com/license/
 .footer {
     background-color: #FFFFFF;
     line-height: 36px;
+    text-align: center;
 }
 
 .footer.footer-black h4 {
@@ -6313,6 +6328,25 @@ License - nucleoapp.com/license/
 .section-light-blue {
     background-color: #51cbce;
     color: #FFFFFF;
+}
+
+.section-blue {
+    background-color: #000b80;
+    color: #FFFFFF;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
 }
 
 .section-dark-blue {

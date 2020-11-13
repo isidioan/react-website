@@ -2,7 +2,19 @@ import React from 'react'
 import classnames from "classnames";
 import logo from "./../../assets/img/kthmatomhxanikhLogo.png"
 // reactstrap components
-import {Collapse, Container, Nav, Navbar, NavbarBrand, NavItem, NavLink,} from "reactstrap";
+import {
+    Collapse,
+    Container,
+    DropdownItem,
+    DropdownMenu,
+    DropdownToggle,
+    Nav,
+    Navbar,
+    NavbarBrand,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown
+} from "reactstrap";
 
 function NavBar() {
 
@@ -53,11 +65,44 @@ function NavBar() {
                                 <p>ΑΡΧΙΚΗ</p>
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink href="#">
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle
+                                aria-expanded={false}
+                                aria-haspopup={true}
+                                caret
+                                color="default"
+                                data-toggle="dropdown"
+                                id="dropdownMenuButton"
+                                nav
+                                onClick={(e) => e.preventDefault()}
+                                role="button"
+                            >
                                 <p>ΥΠΗΡΕΣΙΕΣ</p>
-                            </NavLink>
-                        </NavItem>
+                            </DropdownToggle>
+                            <DropdownMenu
+                                aria-labelledby="dropdownMenuButton"
+                                className="dropdown-info"
+                            >
+                                <DropdownItem
+                                    href="/"
+                                    onClick={(e) => e.preventDefault()}
+                                >
+                                    Μελέτες - Κατασκευές
+                                </DropdownItem>
+                                <DropdownItem
+                                    href="#pablo"
+                                    onClick={(e) => e.preventDefault()}
+                                >
+                                    Ανακαινίσεις - Επισκευές
+                                </DropdownItem>
+                                <DropdownItem
+                                    href="#pablo"
+                                    onClick={(e) => e.preventDefault()}
+                                >
+                                    Υπηρεσίες Τεχνικού Γραφείου
+                                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
                         <NavItem>
                             <NavLink href="#">
                                 <p>ΕΠΙΚΟΙΝΩΝΙΑ</p>
