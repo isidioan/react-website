@@ -32,7 +32,7 @@ function NavBar() {
                 <div className="navbar-translate">
                     <NavbarBrand
                         data-placement="bottom"
-                        href="/"
+                        href="/home"
                     >
                         <img
                             src={logo}
@@ -62,7 +62,7 @@ function NavBar() {
                 >
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="#">
+                            <NavLink href="/home">
                                 <p>ΑΡΧΙΚΗ</p>
                             </NavLink>
                         </NavItem>
@@ -85,8 +85,7 @@ function NavBar() {
                                 className="dropdown-info"
                             >
                                 <DropdownItem
-                                    href="/"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="/constService"
                                 >
                                     Μελέτες - Κατασκευές
                                 </DropdownItem>
