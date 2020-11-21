@@ -32,7 +32,7 @@ function HomePage() {
                 <div className="filter"/>
                 <Container>
                     <div className="motto text-center">
-                        <h1 style={{fontStyle: "italic"}}>Κτηματο-μηχανική Ο.Ε</h1>
+                        <h1 style={{fontStyle: "italic"}}>Κτηματο-μηχανική</h1>
                         <h3>Υπηρεσίες Μηχανικού</h3>
                         <br/>
                         <Button
@@ -100,14 +100,14 @@ function HomePage() {
                             <div style={{marginBottom: "2%"}}>
                                 <i className="fa fa-phone"></i>
                                 <span style={{fontWeight: "bold", marginLeft: "5%"}}>Τηλέφωνο: </span>
-                                <span>(+30) 2422023954</span>
+                                <span>(+30) 2422100186</span>
                             </div>
                             <div style={{marginBottom: "2%"}}>
                                 <i className="fa fa-envelope"></i>
                                 <span style={{fontWeight: "bold", marginLeft: "5%"}}>Email: </span>
                                 <span>
                                     <a style={{color: "#FFF"}}
-                                       href="mailto:isidoros_ioannou@yahoo.com">isidoros_ioannou@yahoo.com</a>
+                                       href="mailto:ktm.almyrou@gmail.com">ktm.almyrou@gmail.com</a>
                                 </span>
                             </div>
                         </Col>

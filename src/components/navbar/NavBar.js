@@ -1,6 +1,6 @@
 import React from 'react'
 import classnames from "classnames";
-import logo from "./../../assets/img/kthmatomhxanikhLogo.png"
+import logo from "./../../assets/img/kthmatomhxanikhcard.png"
 // reactstrap components
 import {
     Collapse,
@@ -36,10 +36,11 @@ function NavBar() {
                     >
                         <img
                             src={logo}
-                            width="50%"
+                            width="100%"
                             height="100%"
                             className="d-inline-block align-top"
                             alt="..."
+                            style={{maxHeight : "120px"}}
                         />
                     </NavbarBrand>
                     <button

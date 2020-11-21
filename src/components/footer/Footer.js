@@ -9,7 +9,7 @@ function Footer() {
                 <Row>
                     <div className="credits ml-auto">
             <span className="copyright">
-              © {new Date().getFullYear()}. ΚΤΗΜΑΤΟΜΗΧΑΝΙΚΗ Ο.Ε | made by iioannou
+              © {new Date().getFullYear()}. ΚΤΗΜΑΤΟΜΗΧΑΝΙΚΗ | made by iioannou
             </span>
                     </div>
                 </Row>
