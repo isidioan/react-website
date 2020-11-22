@@ -74,7 +74,7 @@ function HomePage() {
                         </Col>
                         <Col md="4" sm="6">
                             <div className="icon">
-                                <a href="#" style={{paddingRight: "20%"}}>
+                                <a href="/engService" style={{paddingRight: "20%"}}>
                                     <i className="fa fa-cogs fa-5x" aria-hidden="true"></i>
                                 </a>
                                 <h4>Υπηρεσίες Τεχνικού Γραφείου</h4>

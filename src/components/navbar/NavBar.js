@@ -95,8 +95,7 @@ function NavBar() {
                                     Ανακαινίσεις - Επισκευές
                                 </DropdownItem>
                                 <DropdownItem
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="/engService"
                                 >
                                     Υπηρεσίες Τεχνικού Γραφείου
                                 </DropdownItem>
