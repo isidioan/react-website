@@ -55,7 +55,7 @@ function HomePage() {
                     <Row>
                         <Col md="4" sm="6">
                             <div className="icon">
-                                <a href="#">
+                                <a href="/constService">
                                     <i className="fa fa-wrench fa-5x" aria-hidden="true"></i>
                                 </a>
                                 <h4>Μελέτες - Κατασκευές</h4>
@@ -64,7 +64,7 @@ function HomePage() {
                         </Col>
                         <Col md="4" sm="6">
                             <div className="icon">
-                                <a href="#">
+                                <a href="/repService">
                                     <i className="fa fa-paint-brush fa-5x" aria-hidden="true"></i>
                                 </a>
                                 <h4>Ανακαινίσεις - Επισκευές</h4>

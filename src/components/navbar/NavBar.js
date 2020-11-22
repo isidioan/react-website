@@ -90,8 +90,7 @@ function NavBar() {
                                     Μελέτες - Κατασκευές
                                 </DropdownItem>
                                 <DropdownItem
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="/repService"
                                 >
                                     Ανακαινίσεις - Επισκευές
                                 </DropdownItem>
