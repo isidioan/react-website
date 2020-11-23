@@ -2715,6 +2715,31 @@ blockquote small {
     min-height: 32px;
 }
 
+.title-black {
+    color: #000000;
+}
+
+.address-info {
+    margin-bottom: 2%;
+    font-size: 1.3em;
+}
+
+.address-info-label {
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.address-info-white {
+    color: #FFFFFF;
+}
+
+.address-info-black {
+    color: #000000;
+}
+
+
+
+
 .title-white {
     color: #FFF;
 }

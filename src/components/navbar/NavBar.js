@@ -21,6 +21,25 @@ function NavBar() {
     /*const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");*/
     const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
+    let brandImage = React.createRef();
+
+    React.useEffect(() => {
+            const updateImg = () => {
+                if(window.pageYOffset > 100) {
+                    brandImage.current.style.height = "50%"
+                    brandImage.current.style.width = "50%"
+                } else {
+                    brandImage.current.style.height = "100%"
+                    brandImage.current.style.width = "100%"
+                }
+            };
+            window.addEventListener("scroll", updateImg);
+            return function cleanup() {
+                window.removeEventListener("scroll", updateImg);
+            };
+    })
+
+
     const toggleNavbarCollapse = () => {
         setNavbarCollapse(!navbarCollapse);
         document.documentElement.classList.toggle("nav-open");
@@ -41,6 +60,7 @@ function NavBar() {
                             className="d-inline-block align-top"
                             alt="..."
                             style={{maxHeight : "120px"}}
+                            ref={brandImage}
                         />
                     </NavbarBrand>
                     <button
@@ -102,7 +122,7 @@ function NavBar() {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavLink href="#">
+                            <NavLink href="/contact">
                                 <p>ΕΠΙΚΟΙΝΩΝΙΑ</p>
                             </NavLink>
                         </NavItem>

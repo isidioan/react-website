@@ -7,6 +7,7 @@ import ConstructionService from "./components/services/Service1";
 import RepairService from "./components/services/Service2";
 import EngineerService from "./components/services/Service3";
 import Page from "./components/layout/Page";
+import Contact from "./components/contact/Contact";
 
 function App() {
     return (
@@ -32,8 +33,14 @@ function App() {
                 )}
                 />
                 <Route path="/engService" render={(props) => (
-                    <Page title="Mitsos">
+                    <Page title="Υπηρεσίες Τεχνικού Γραφείου-Κτηματομηχανική">
                         <EngineerService {...props}/>
+                    </Page>
+                )}
+                />
+                <Route path="/contact" render={(props) => (
+                    <Page title="Επικοινωνία-Κτηματομηχανική">
+                        <Contact {...props}/>
                     </Page>
                 )}
                 />

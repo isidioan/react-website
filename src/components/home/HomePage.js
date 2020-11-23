@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button, Col, Container, Row} from "reactstrap";
+import {useHistory} from "react-router-dom";
 
 
 function HomePage() {
@@ -20,6 +21,13 @@ function HomePage() {
         }
     });
 
+    const history = useHistory();
+
+    const routeChange = () =>{
+        let path = `/contact`;
+        history.push(path);
+    }
+
     return (
         <>
             <div id="header" style={{
@@ -36,7 +44,7 @@ function HomePage() {
                         <h3>Υπηρεσίες Μηχανικού</h3>
                         <br/>
                         <Button
-                            href="#"
+                            onClick={routeChange}
                             className="btn-round mr-1"
                             color="neutral"
                             target="_blank"
@@ -91,22 +99,22 @@ function HomePage() {
                         <h2>Επικοινωνία</h2>
                     </div>
                     <Row>
-                        <Col md="4" sm="6">
-                            <div style={{marginBottom: "2%"}}>
+                        <Col md="5" sm="6">
+                            <div className="address-info">
                                 <i className="fa fa-map-marker"></i>
-                                <span style={{fontWeight: "bold", marginLeft: "5%"}}>Διεύθυνση: </span>
-                                <span>Η διευθυνση</span>
+                                <span className="address-info-label address-info-white">Διεύθυνση: </span>
+                                <span className="address-info-white">Μιχοπούλου 8, Αλμυρός, 37100</span>
                             </div>
-                            <div style={{marginBottom: "2%"}}>
+                            <div className="address-info">
                                 <i className="fa fa-phone"></i>
-                                <span style={{fontWeight: "bold", marginLeft: "5%"}}>Τηλέφωνο: </span>
-                                <span>(+30) 2422100186</span>
+                                <span className="address-info-label address-info-white">Τηλέφωνο: </span>
+                                <span className="address-info-white">(+30) 2422100186</span>
                             </div>
-                            <div style={{marginBottom: "2%"}}>
+                            <div className="address-info">
                                 <i className="fa fa-envelope"></i>
-                                <span style={{fontWeight: "bold", marginLeft: "5%"}}>Email: </span>
+                                <span className="address-info-label address-info-white">Email: </span>
                                 <span>
-                                    <a style={{color: "#FFF"}}
+                                    <a className="address-info-white"
                                        href="mailto:ktm.almyrou@gmail.com">ktm.almyrou@gmail.com</a>
                                 </span>
                             </div>
@@ -114,9 +122,9 @@ function HomePage() {
                         <Col md="4" sm="6">
                             <div className="mapouter">
                                 <div className="gmap_canvas">
-                                    <iframe width="100%" height="300px" id="gmap_canvas"
-                                            src="https://maps.google.com/maps?q=%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%AD%CF%89%CF%82%20%CE%BA%CF%89%CE%BD%CF%83%CF%84%CE%B1%CE%BD%CF%84%CE%AF%CE%BD%CE%BF%CF%85%2027%2C%20%CE%91%CE%BB%CE%BC%CF%85%CF%81%CF%8C%CF%82&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                                    <iframe width="100%" height="300px" id="gmap_canvas" title="smallMap"
+                                            src="https://maps.google.com/maps?q=%CE%9C%CE%B9%CF%87%CE%BF%CF%80%CE%BF%CF%8D%CE%BB%CE%BF%CF%85%208%2C%20%CE%91%CE%BB%CE%BC%CF%85%CF%81%CE%BF%CF%82&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"/>
                                 </div>
                             </div>
                         </Col>
